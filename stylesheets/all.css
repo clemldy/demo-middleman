@@ -2,7 +2,7 @@
 /* -------------------------------------
  * Fonts
  * ------------------------------------- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -1398,7 +1398,7 @@ html {
 
 /* line 27, /Users/clementledey/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Open Sans Condensed", "sans-serif";
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
@@ -1495,7 +1495,7 @@ hr {
 /* line 9, /Users/clementledey/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Raleway", "Helvetica", "sans-serif";
+  font-family: "Open Sans Condensed", "sans-serif";
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -6270,7 +6270,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Open Sans Condensed", "sans-serif";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.4;
@@ -6381,7 +6381,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Open Sans Condensed", "sans-serif";
   font-size: 16px;
   font-weight: normal;
   line-height: 1.4;
@@ -9159,10 +9159,14 @@ footer {
   float: right;
   line-height: 30px; }
 
+/* line 32, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+.credits .fa {
+  color: #D23333; }
+
 /* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
-  background: white; }
+  background-image: url("../images/velo.png"); }
   /* line 4, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-logo {
     width: 50px; }
@@ -9209,13 +9213,14 @@ footer {
       border: 1px solid #CCCCCC; }
   /* line 48, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-link {
-    color: #616668;
-    font-size: 14px; }
-    /* line 51, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    color: #D23333;
+    font-size: 14px;
+    font-weight: bold; }
+    /* line 52, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-link:hover {
       color: #da552f;
       text-decoration: none; }
-  /* line 56, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 57, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-button {
     padding: 0 20px;
     border-radius: 20em;
@@ -9224,17 +9229,17 @@ footer {
     color: white;
     font-size: 14px;
     border: 2px solid #D23333; }
-    /* line 65, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 66, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-button:hover {
       color: white;
       background: #D23333;
       border-color: #ac2626; }
-  /* line 71, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 72, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-dropdown-menu {
     margin-top: 15px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6; }
-    /* line 75, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 76, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu li > a {
       transition: color 0.3s ease;
       font-weight: lighter !important;
@@ -9242,11 +9247,11 @@ footer {
       font-size: 15px !important;
       line-height: 22px !important;
       padding: 10px 20px; }
-      /* line 82, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+      /* line 83, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
       .navbar-wagon-dropdown-menu li > a:hover {
         background: transparent !important;
         color: black !important; }
-    /* line 87, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 88, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu:before {
       content: ' ';
       height: 20px;
@@ -9411,6 +9416,10 @@ footer {
 /* line 51, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
 .card-link:hover {
   background-color: rgba(0, 0, 0, 0.4); }
+
+/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/pages/_home.scss */
+.row {
+  padding: 30px 0; }
 
 /*
 ==============================================
