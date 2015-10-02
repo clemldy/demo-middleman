@@ -2,9 +2,282 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="banner text-center">
+  <div class="banner-shadow"></div>
+  <div class="banner-content">
+    <h1>Startup tools</h1>
+    <p>Very cool stuff, useful and smart</p>
+    <%= link_to 'Get it!', '/contact.html', class: "btn btn-primary btn-lg"%>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-lg-3 content">
+    <h2>
+      <i class="fa fa-user blue"></i>
+      Le titre 1
+    </h2>
+    <p>
+      Bacon ipsum dolor amet bresaola leberkas pork loin picanha swine capicola. Jerky ham ham hock hambpork belly frankfurter ribeye bresaola chicken tri-tip cupim. Ham hock picanha shoulder tenderloinchop tail rump. Kielbasa landjaeger spare ribs ribeye, meatloaf rump turducken salami.
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-3 content">
+    <h2>
+      <i class="fa fa-github yellow"></i>
+      Le titre 2
+    </h2>
+    <p>
+      Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comicknow how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. Andtimes they're friends, like you and me! I should've known way back when... You know why, David? Beof the kids. They called me Mr Glass.
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-3 content">
+    <h2>
+      <i class="fa fa-github orange"></i>
+      Le titre 2
+    </h2>
+    <p>
+      Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comicknow how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. Andtimes they're friends, like you and me! I should've known way back when... You know why, David? Beof the kids. They called me Mr Glass.
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-3 content hidden-xs">
+    <h2>
+      <i class="fa fa-train"></i>
+      Le titre 3
+    </h2>
+    <p>
+      Y a des gens qui n'ont pas réussi parce qu'ils ne sont pas aware, ils ne sont pas "au courant". Isont pas à l'attention de savoir qu'ils existent. Les pauvres, ils savent pas. Il faut réveillegens. C'est-à-dire qu'y a des gens qui font leur travail, qui font leurs études, ils ont un dipils sont au contact tout ça. Tu as un rhume et tu fais toujours "snif". Faut que tu te mouches. Tuun mouchoir ? Alors y a des gens comme ça qui ne sont pas aware. Moi je suis aware tu vois, c'eexemple, je suis aware
+    </p>
+  </div>
+</div>
+<div class="col-xs-4 col-xs-offset-4">
+  <hr>
+</div>
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h2>Most popular</h2>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <div class="card">
+      <span class="card-bg" style="background-image: url('https://unsplash.it/500/200?image=0')"></span>
+      <span class="card-shadow"></span>
+      <span class="card-description">Popular</span>
+      <span class="card-text">
+        <h2>Trello</h2>
+        <p>Very cool stuff, useful and smart</p>
+      </span>
+      <span class="card-user">
+      <% link_to "#" do %>
+        <%= image_tag 'http://placehold.it/40x40', class: "avatar avatar-bordered img-circle"%>
+        <%end%>
+      </span>
+      <%= link_to 'card-link', "#" %>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <div class="card">
+      <span class="card-bg" style="background-image: url('https://unsplash.it/500/200?image=1')"></span>
+      <span class="card-shadow"></span>
+      <span class="card-description">Popular</span>
+      <span class="card-text">
+        <h2>Github</h2>
+        <p>Very cool stuff, useful and smart</p>
+      </span>
+      <span class="card-user">
+      <% link_to "#" do %>
+        <%= image_tag 'http://placehold.it/40x40', class: "avatar avatar-bordered img-circle"%>
+        <%end%>
+      </span>
+      <%= link_to 'card-link', "#" %>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <div class="card">
+      <span class="card-bg" style="background-image: url('https://unsplash.it/500/200?image=2')"></span>
+      <span class="card-shadow"></span>
+      <span class="card-description">Popular</span>
+      <span class="card-text">
+        <h2>Heroku</h2>
+        <p>Very cool stuff, useful and smart</p>
+      </span>
+      <span class="card-user">
+        <% link_to "#" do %>
+        <%= image_tag 'http://placehold.it/40x40', class: "avatar avatar-bordered img-circle"%>
+        <%end%>
+      </span>
+    </div>
+  </div>
+</div>
+<div class="col-xs-4 col-xs-offset-4">
+  <hr>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+    <form class="form-inline text-center">
+      <div class="form-group">
+        <input type="text" class="form-control" id="email" placeholder="Email">
+      </div>
+      <button type="submit" class="btn btn-primary">Send invitation</button>
+    </form>
+  </div>
+</div>
+
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [
+    {
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#ff4400"
+            },
+            {
+                "saturation": -68
+            },
+            {
+                "lightness": -4
+            },
+            {
+                "gamma": 0.72
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.icon"
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#0077ff"
+            },
+            {
+                "gamma": 3.1
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "stylers": [
+            {
+                "hue": "#00ccff"
+            },
+            {
+                "gamma": 0.44
+            },
+            {
+                "saturation": -33
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "stylers": [
+            {
+                "hue": "#44ff00"
+            },
+            {
+                "saturation": -23
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "hue": "#007fff"
+            },
+            {
+                "gamma": 0.77
+            },
+            {
+                "saturation": 65
+            },
+            {
+                "lightness": 99
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "gamma": 0.11
+            },
+            {
+                "weight": 5.6
+            },
+            {
+                "saturation": 99
+            },
+            {
+                "hue": "#0091ff"
+            },
+            {
+                "lightness": -86
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": -48
+            },
+            {
+                "hue": "#ff5e00"
+            },
+            {
+                "gamma": 1.2
+            },
+            {
+                "saturation": -23
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "saturation": -64
+            },
+            {
+                "hue": "#ff9100"
+            },
+            {
+                "lightness": 16
+            },
+            {
+                "gamma": 0.47
+            },
+            {
+                "weight": 2.7
+            }
+        ]
+    }
+    ]
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+    });
+    </script>
