@@ -9421,6 +9421,10 @@ footer {
 .row {
   padding: 30px 0; }
 
+/* line 4, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/pages/_home.scss */
+.row img {
+  height: 30px; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
