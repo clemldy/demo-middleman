@@ -9128,65 +9128,66 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 footer {
   background-image: url("../images/velo.png");
   padding: 10px;
   color: #FFF; }
 
-/* line 7, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 7, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 .social-links a {
   color: #D23333;
   font-size: 20px; }
 
-/* line 12, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 12, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 .social-links a:hover {
   color: #FFF;
   transition: all 1s;
   text-decoration: none; }
 
-/* line 18, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 18, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 .credits,
 .social-links {
   display: inline-block; }
 
-/* line 23, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 23, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 .social-links li {
   margin: 5px; }
 
-/* line 27, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 27, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 .credits {
   float: right;
   line-height: 30px; }
 
-/* line 32, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_footer.css.scss */
+/* line 32, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_footer.css.scss */
 .credits .fa {
   color: #D23333; }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
-  background-image: url("../images/velo.png"); }
-  /* line 4, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  background-image: url("../images/velo.png");
+  transition: all 0.3s ease; }
+  /* line 5, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-logo {
     width: 50px; }
-  /* line 7, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 8, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-container {
     display: flex;
     height: 70px;
     align-items: center; }
-  /* line 12, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 13, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-item {
     flex: 0 1 auto;
     padding: 0 10px; }
-  /* line 16, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 17, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-search {
     flex: 1 1 auto;
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
     position: relative; }
-    /* line 22, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 23, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-btn {
       line-height: 40px;
       color: #E6E6E6;
@@ -9196,7 +9197,7 @@ footer {
       right: 10px;
       top: -2px;
       z-index: 1; }
-    /* line 32, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 33, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input {
       flex: 0 1 300px;
       transition: all 0.15s ease;
@@ -9208,19 +9209,19 @@ footer {
       padding: 0 10px;
       font-size: 14px;
       outline: none; }
-    /* line 44, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 45, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input:focus {
       border: 1px solid #CCCCCC; }
-  /* line 48, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 49, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-link {
     color: #D23333;
     font-size: 14px;
     font-weight: bold; }
-    /* line 52, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 53, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-link:hover {
       color: #da552f;
       text-decoration: none; }
-  /* line 57, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 58, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-button {
     padding: 0 20px;
     border-radius: 20em;
@@ -9229,17 +9230,17 @@ footer {
     color: white;
     font-size: 14px;
     border: 2px solid #D23333; }
-    /* line 66, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 67, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-button:hover {
       color: white;
       background: #D23333;
       border-color: #ac2626; }
-  /* line 72, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 73, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-dropdown-menu {
     margin-top: 15px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6; }
-    /* line 76, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 77, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu li > a {
       transition: color 0.3s ease;
       font-weight: lighter !important;
@@ -9247,11 +9248,11 @@ footer {
       font-size: 15px !important;
       line-height: 22px !important;
       padding: 10px 20px; }
-      /* line 83, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+      /* line 84, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
       .navbar-wagon-dropdown-menu li > a:hover {
         background: transparent !important;
         color: black !important; }
-    /* line 88, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 89, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu:before {
       content: ' ';
       height: 20px;
@@ -9269,52 +9270,52 @@ footer {
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 8, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
+/* line 8, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 5em;
   padding-bottom: 5em; }
 
-/* line 14, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
+/* line 14, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
 .bg-text {
   background: #4a4a4a; }
 
-/* line 17, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
+/* line 17, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
 .bg-email {
   background: #aeaeae; }
 
-/* line 20, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
+/* line 20, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
 .bg-twitter {
   background: #00a3e1; }
 
-/* line 23, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
+/* line 23, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/layout/_utilities.css.scss */
 .bg-facebook {
   background: #3b5998; }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_avatar.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_avatar.scss */
 .avatar {
   width: 30px;
   border-radius: 50%; }
-  /* line 4, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_avatar.scss */
+  /* line 4, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_avatar.scss */
   .avatar-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
-  /* line 8, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_avatar.scss */
+  /* line 8, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_avatar.scss */
   .avatar-large {
     width: 50px; }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
 .icon-badge-container {
   position: relative;
   font-size: 20px;
   color: grey; }
 
-/* line 6, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+/* line 6, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
 .user-badge-container {
   position: relative;
   width: 30px;
   margin: 0 auto; }
 
-/* line 11, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+/* line 11, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
 .icon-badge, .user-badge {
   position: absolute;
   top: -5px;
@@ -9326,24 +9327,24 @@ footer {
   text-align: center;
   border-radius: 50%;
   background: grey; }
-  /* line 22, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+  /* line 22, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
   .icon-badge-red, .user-badge-red {
     background: #EE5F5B; }
-  /* line 25, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+  /* line 25, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
   .icon-badge-green, .user-badge-green {
     background: #32B796; }
-  /* line 28, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+  /* line 28, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
   .icon-badge-blue, .user-badge-blue {
     background: #469AE0; }
-  /* line 31, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+  /* line 31, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
   .icon-badge-black, .user-badge-black {
     background: black; }
-  /* line 34, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_badge.scss */
+  /* line 34, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_badge.scss */
   .icon-badge-bordered, .user-badge-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_banner.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_banner.scss */
 .banner {
   background-image: url("https://unsplash.it/1000/400?image=777");
   background-size: cover;
@@ -9351,13 +9352,13 @@ footer {
   z-index: 0;
   padding: 150px; }
 
-/* line 9, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_banner.scss */
+/* line 9, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_banner.scss */
 .banner-content {
   color: #FFF;
   position: relative;
   z-index: 2; }
 
-/* line 15, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_banner.scss */
+/* line 15, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_banner.scss */
 .banner-shadow {
   background-color: rgba(87, 102, 137, 0.5);
   position: absolute;
@@ -9367,13 +9368,13 @@ footer {
   right: 0;
   z-index: 1; }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card {
   position: relative;
   height: 175px;
   margin: 10px 0; }
 
-/* line 8, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 8, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-bg {
   bottom: 0;
   position: absolute;
@@ -9382,7 +9383,7 @@ footer {
   width: 100%;
   background-size: cover; }
 
-/* line 19, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 19, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-description,
 .card-text,
 .card-user {
@@ -9390,22 +9391,22 @@ footer {
   z-index: 1;
   color: #FFFFFF; }
 
-/* line 28, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 28, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-text {
   bottom: 0;
   left: 5px; }
 
-/* line 33, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 33, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-user {
   right: 5px;
   top: 5px; }
 
-/* line 38, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 38, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-description {
   left: 5px;
   top: 5px; }
 
-/* line 43, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 43, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-link {
   position: absolute;
   top: 0;
@@ -9413,15 +9414,15 @@ footer {
   width: 100%;
   z-index: 3; }
 
-/* line 51, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/components/_card.scss */
+/* line 51, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/components/_card.scss */
 .card-link:hover {
   background-color: rgba(0, 0, 0, 0.4); }
 
-/* line 1, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/pages/_home.scss */
+/* line 1, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/pages/_home.scss */
 .row {
   padding: 30px 0; }
 
-/* line 4, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/pages/_home.scss */
+/* line 4, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/pages/_home.scss */
 .row img {
   height: 30px; }
 
@@ -9443,7 +9444,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9471,7 +9472,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9499,7 +9500,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9527,7 +9528,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9555,7 +9556,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9589,7 +9590,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9613,7 +9614,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9640,7 +9641,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9666,7 +9667,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9703,7 +9704,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9736,7 +9737,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -9766,7 +9767,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -9790,7 +9791,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -9811,7 +9812,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -9832,7 +9833,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -9864,7 +9865,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -9896,7 +9897,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -9928,7 +9929,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /Users/clementledey/code/clemldy/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /Users/clementledey/code/clemldy/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/demo-middleman/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;
